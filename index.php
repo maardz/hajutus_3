@@ -79,5 +79,45 @@
 	echo "selle" . trim(" teksti esimene täht") . "on suur!!!";
  ?>
 
+ <h2>Täisarvud</h2>
+
+ <?php 
+ 	$nr1 = 12;
+ 	$nr2 = 5;
+
+ 	echo $nr1 -$nr2 ;
+ 	echo "<br>";
+ ?>
+
+ <?php
+ 	echo abs(-300);
+ 	echo "<br>";
+
+  ?>
+
+ <?php
+    
+    echo pow(5, 2);
+    echo "<br>";
+
+    echo pow(7, 3);
+    echo "<br>";
+
+    echo pow(3, 7);
+    echo "<br>";
+?>
+
+<?php
+    echo sqrt(25);
+    echo "<br>";
+?>
+
+<?php
+   
+    echo rand();    
+    echo "<br>";
+    echo rand(7, 22);
+?>
+
 </body>
 </html>
