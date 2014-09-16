@@ -45,7 +45,11 @@
 <?php
 	$test = "Testime";	
 	echo "$test kas interpolatsioon töötab";
+	echo "<br>";
 ?>
-
+<?php
+	$katse = "proov";
+	echo "Me peame {$katse}ima, kas ka ka nii saab.";
+?>
 </body>
 </html>
