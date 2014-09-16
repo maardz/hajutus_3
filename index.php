@@ -40,8 +40,11 @@
 	$fullName = $firstName. " ".$lastName;
 	echo $fullName;
 	echo "<br>";
+?>
 
-
+<?php
+	$test = "Testime";	
+	echo "$test kas interpolatsioon töötab";
 ?>
 
 </body>
