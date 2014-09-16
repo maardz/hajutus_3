@@ -33,5 +33,16 @@
 	echo "<br>";
 ?>
 
+<?php
+	$firstName = "Marge";
+	$lastName = "Molder";
+
+	$fullName = $firstName. " ".$lastName;
+	echo $fullName;
+	echo "<br>";
+
+
+?>
+
 </body>
 </html>
