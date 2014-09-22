@@ -117,6 +117,59 @@
     echo rand();    
     echo "<br>";
     echo rand(7, 22);
+    echo "<br>";
+?>
+
+<?php
+    $sample_nr = 45;
+    $sample_nr = $sample_nr + 5;
+     echo $sample_nr;
+     echo "<br>";
+?>
+
+<?php
+    $sample_nr2 = 45;
+    $sample_nr2 += 5;
+    echo $sample_nr2;
+     echo "<br>";
+?>
+
+<?php
+    $sample_nr2 = 45;
+    $sample_nr2 -= 5;
+    echo $sample_nr2;
+    echo "<br>";
+?>
+
+<?php
+    $sample_nr3 = 45;
+    $sample_nr3 *= 5;
+    echo $sample_nr3;
+    echo "<br>";
+
+    $sample_nr2 = 45;
+    $sample_nr2 /= 5;
+    echo $sample_nr2;
+    echo "<br>";
+?>
+
+<?php
+    echo 5 . " teksapüksid";
+    echo "<br>";
+?>
+
+<?php
+    echo 5 + " teksapüksid";
+    echo "<br>";
+?>
+
+<?php
+    echo 5 + "5";
+    echo "<br>";
+?>
+
+<?php
+    echo 5 + "7 teksapüksi";
 ?>
 
 </body>
